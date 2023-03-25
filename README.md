@@ -1,7 +1,9 @@
-## Calculating Optical Flow using Lukas-Kanade algorithm
+## Multi-Scale Coarse-to-Fine Optical Flow for Accurate Motion Detection
 The goal of the project is to get familiarize about the optical flow which is the most general and challenging version of motion estimation. It involves computing an independent estimate of motion at each pixel.
 
 Using Lukas-Kanade algorithm, optical flow is calculated for the Middlebery Optical Flow Dataset. The method to calculate optical flow are written from scratch to get an in-depth knowledge of the Lukas-Kanade algorithm.
+
+This method is further extended to calculate Multi-Scale Coarse-to-Fine optical flow which helps to capture large displacements among the frames. It solves the aperture problem to some extent encountered by Lukas-Kanade method. 
 
 Program to calculate optical flow and observations derived from the results are present in optical_flow.ipynb
 
